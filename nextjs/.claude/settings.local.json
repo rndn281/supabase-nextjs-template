@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(yarn install:*)",
+      "Bash(supabase --version:*)",
+      "Bash(cat:*)",
+      "Bash(curl:*)",
+      "Bash(nul)",
+      "Bash(findstr:*)",
+      "Bash(yarn dev)",
+      "Bash(supabase db push:*)",
+      "Bash(node migrate-data.js:*)",
+      "Bash(node check-automation-values.js:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
